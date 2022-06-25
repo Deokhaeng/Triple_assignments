@@ -65,8 +65,7 @@ const TripleImg = styled.div`
   height: 338px;
   width: 400px;
   background-size: cover;
-  ${({ src }) =>
-    src ? `background-image: url(${src});` : `background-image: url(${src})`};
+  ${({ src }) => `background-image: url(${src});`};
 `;
 
 const TripleText = styled.div`
