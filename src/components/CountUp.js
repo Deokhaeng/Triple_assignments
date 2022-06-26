@@ -8,7 +8,7 @@ const CountUp = ({ end }) => {
   const totalFrame = Math.round(duration / frameRate);
 
   const easeOutNum = (t) => {
-    return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+    return t === 1 ? 1 : 1 - Math.pow(2, -9 * t);
   };
 
   useEffect(() => {
