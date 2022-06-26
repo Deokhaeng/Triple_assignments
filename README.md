@@ -11,7 +11,7 @@
 1. 프로젝트 클론
 
 ```console
-$ git clone https://github.com/Jayteeee/Family_Project.git
+$ git clone https://github.com/Deokhaeng/Triple_assignments.git
 ```
 
 2. 패키지 설치
